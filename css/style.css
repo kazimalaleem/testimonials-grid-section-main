@@ -13,7 +13,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: aliceblue;
+    background-color: rgb(247, 247, 247);
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -48,7 +48,6 @@ section {
     border: 2px solid hsl(0, 0%, 81%);
     margin-right: 10px;
 }
-
 .testimonials-name h1 {
     font-size: 13px;
 }
@@ -58,17 +57,18 @@ section {
 }
 
 .testimonials-grid {
-    color: hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 85%);;
     font-size: 17px;
     margin-top: 10px;
     margin-bottom: 10px;
+    letter-spacing: 0.19px;
 }
 
 .testimonials-section {
     color: hsl(0, 0%, 81%);
     font-size: 15px;
     margin-top: 10px;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .testimonials-card-1 {
@@ -97,6 +97,33 @@ section {
     grid-row: 2/3;
     grid-column: 2/4;  
     background-color: hsl(219, 29%, 14%); 
+}
+.testimonials-card-3 h1{
+    color: black;
+}
+.testimonials-card-3 .testimonials-title{
+    color: black;
+}
+.testimonials-card-3 .testimonials-grid{
+    color: black;
+}
+.testimonials-card-3 .testimonials-section{
+    color: black;
+    opacity: 0.7;
+}
+
+.testimonials-card-5 h1{
+    color: black;
+}
+.testimonials-card-5 .testimonials-title{
+    color: black;
+}
+.testimonials-card-5 .testimonials-grid{
+    color: black;
+}
+.testimonials-card-5 .testimonials-section{
+    color: black;
+    opacity: 0.7;
 }
 .testimonials-card-5 {
     grid-row: -1/1;
